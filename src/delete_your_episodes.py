@@ -65,6 +65,6 @@ def main(
     # clear cache, to get fresh data next time
     os.remove(data_handler.CACHE_FILE)    
     exit(0)
-    
+
 if __name__ == "__main__":
     main()
