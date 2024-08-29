@@ -15,6 +15,6 @@ I had over 300 episodes of podcasts piled up, listened to most of them until the
     - `SPOTIPY_REDIRECT_URI = "http://127.0.0.1:8080"` (or whatever you did in Step 1.)
 3. create a virtual environment, activate it and run `pip install -r requirements.txt`
 4. go into `/src` and use `python delete_your_episodes.py --help` for further instructions
-    - your browser should prompt you to authorize your app (I have no access to anything, its all yours)
+    - your browser should prompt you to authorize your app (Don't worry, I have no access to anything, it's all yours)
 5. ???
 6. Enjoy your cleaned up Spotify
