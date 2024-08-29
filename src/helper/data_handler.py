@@ -8,11 +8,7 @@ from spotipy.oauth2 import SpotifyOAuth
 
 load_dotenv()
 
-SCOPE = """user-library-read user-library-modify
-            user-read-private user-top-read
-            user-read-playback-position user-read-recently-played
-            playlist-modify-private
-            playlist-read-collaborative"""
+SCOPE = """user-library-read user-library-modify"""
 
 SPOTIPY_CLIENT_ID = os.environ.get("SPOTIPY_CLIENT_ID")
 SPOTIPY_CLIENT_SECRET = os.environ.get("SPOTIPY_CLIENT_SECRET")
